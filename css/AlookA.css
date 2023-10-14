@@ -20,23 +20,24 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
 }
 .searchbar{
     border-radius: 64px;
     background: #D9D9D9;
-    width: 624px;
+    width: 524px;
     height: 72px;
     flex-shrink: 0;
     justify-content: flex-end;
     align-items: center;
     padding: 0 3%;
-    margin-right: 5%;
+    margin-right: 10%
 }
 #search-icon{
     stroke-width: 1.5px;
     stroke: #000;
-    width: 59px;
-    height: 51.553px;
+    width: 22px;
+    height: 23px;
     flex-shrink: 0;
     justify-content: end;
 }
@@ -50,6 +51,7 @@ body{
 }
 .sidebar{
     width: 25%;
+    margin-top: 5%;
 }
 .sidebar-content{
     padding-top: 6%;
@@ -57,13 +59,16 @@ body{
 .sidebar-text{
     color: #000;
     font-family: 'Inter', sans-serif;
-    font-size: 26px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding-left: 10%;
 }
 
+.space{
+    margin-bottom: 10%;
+}
 
 .grid-title{
     color: #000;
@@ -73,29 +78,29 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    margin-left: 35%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-right: 8%;
 }
 
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 10%;
-    row-gap: 5%;
+    row-gap: 4%;
     
 }
 
 .grid-box{
     border-radius: 19px;
     background: #D9D9D9;
-    width: 350px;
-    height: 509px;
+    width: 310px;
+    height: 450px;
     text-align: center;
 }
 
 .middle-div{
-    width: 40%;
+    width: 70%;
+    margin-left: 7%;
 }
 .icon-background{
     background-color: white;
@@ -105,25 +110,78 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 8%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .category-title{
     color: #000;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.56px;
+    margin-bottom: 3%;
 }
 
 .category-p{
     color: rgba(0, 0, 0, 0.60);
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
+}
+
+
+
+.right-bar{
+    width: 22%;
+    margin-top: 8%;
+}
+
+.right-bar-title{
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10%;
+}
+
+.right-bar-p{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.pad{
+    margin-bottom: 10%;
+    padding-left: 20%;
+}
+
+.ask-btn{
+    border-radius: 19px;
+    background: #D9D9D9;
+    border: none;
+    width: 281px;
+    height: 61px;
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20%;
 }
