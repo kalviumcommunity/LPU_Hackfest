@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@300;400&family=Poppins:wght@400;600;900&family=Roboto:wght@400;700&display=swap');
+
+body{
+    box-sizing: border-box;
+    padding: 3%;
+}
+.align-items-centre{
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.logo{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.searchbar{
+    border-radius: 64px;
+    background: #D9D9D9;
+    width: 624px;
+    height: 72px;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 3%;
+    margin-right: 5%;
+}
+#search-icon{
+    stroke-width: 1.5px;
+    stroke: #000;
+    width: 59px;
+    height: 51.553px;
+    flex-shrink: 0;
+    justify-content: end;
+}
+
+.sidebar-icons{
+    width: 59px;
+    height: 51.553px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+.sidebar{
+    width: 25%;
+}
+.sidebar-content{
+    padding-top: 6%;
+}
+.sidebar-text{
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10%;
+}
+
+
+.grid-title{
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 35%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    row-gap: 5%;
+    
+}
+
+.grid-box{
+    border-radius: 19px;
+    background: #D9D9D9;
+    width: 350px;
+    height: 509px;
+    text-align: center;
+}
+
+.middle-div{
+    width: 40%;
+}
+.icon-background{
+    background-color: white;
+    width: 259px;
+    height: 259px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-title{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.56px;
+}
+
+.category-p{
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
