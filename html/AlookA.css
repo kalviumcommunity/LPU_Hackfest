@@ -3,6 +3,7 @@
 body{
     box-sizing: border-box;
     padding: 3%;
+    padding-bottom: 10%;
 }
 .align-items-centre{
     align-items: center;
